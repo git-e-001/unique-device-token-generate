@@ -13,3 +13,7 @@ const generateDeviceFingerprint = () => {
   const hashedFingerprint = calculateSHA256Hash(fingerprint);
   return hashedFingerprint;
 };
+
+
+or You can use this plugin
+https://fingerprintjs.github.io/fingerprintjs/
